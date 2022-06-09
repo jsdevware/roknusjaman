@@ -167,7 +167,6 @@ header .navbar .nav-item .nav-link:before {
     font-size: 20px;
     word-spacing: 1px;
     color: #444;
-    z-index: 10;
     transition: 0.7;
 }
 
@@ -179,6 +178,7 @@ header .navbar .nav-item .nav-link:before {
     width: 51%;
     background: #ddd;
     transition: 0.4s;
+	z-index: -1
 }
 
 #about .call-overlay-2 {
@@ -189,6 +189,7 @@ header .navbar .nav-item .nav-link:before {
     width: 51%;
     background: #ddd;
     transition: 0.4s;
+	z-index: -1
 }
 
 	#about .callBtn:hover > .call-overlay-1 {
