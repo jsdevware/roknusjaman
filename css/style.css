@@ -191,11 +191,6 @@ header .navbar .nav-item .nav-link:before {
     transition: 0.4s;
 }
 
-	#about .callBtn:hover > a {
-		
-		color: #ddd;
-	}
-
 	#about .callBtn:hover > .call-overlay-1 {
 		visibility: visible;
 		left: -51%;
